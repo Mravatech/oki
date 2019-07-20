@@ -12,7 +12,7 @@
                 </div>
                 <div class="verify-number">
                     <input class="verify-input2" type="text" name="text" placeholder="Activation Code" required>
-                    <router-link to=""><button class="verify-btn">Verify Number</button></router-link>
+                    <router-link to="Location"><button class="verify-btn">Verify Number</button></router-link>
                 </div>
             </div>
         </div>

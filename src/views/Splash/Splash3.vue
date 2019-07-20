@@ -11,10 +11,22 @@
                 </div>
                 <div class="foot-note2">
                     <div class="typer-txt">
-                        <!--<vue-typer text='#AbachaInLagos'  pre-type-delay='2000' caret-animation='smooth' ></vue-typer>-->
-                        <vue-typed-js :strings="['#AbachaInLagos', '#BoliInLagos', '#PalmWineInLagos']" :loop="true" @onComplete="doSmth()">
-                            <h4 class="typing"></h4>
-                        </vue-typed-js>
+                        <vue-typer
+                                :text='["#AbachaInLagos","#BoliInLagos","#PalmWineInLagos"]'
+                                :repeat='Infinity'
+                                :shuffle='false'
+                                initial-action='typing'
+                                :pre-type-delay='70'
+                                :type-delay='70'
+                                :pre-erase-delay='2000'
+                                :erase-delay='250'
+                                erase-style='select-all'
+                                :erase-on-complete='false'
+                                caret-animation='blink'
+                        ></vue-typer>
+                        <!--<vue-typed-js :strings="['#AbachaInLagos', '#BoliInLagos', '#PalmWineInLagos']" :loop="true" >-->
+                            <!--<h4 class="typing"></h4>-->
+                        <!--</vue-typed-js>-->
 
                     </div>
                     <div ><router-link to="Login"><img src="../../assets/images/next-btn.svg" class="bounce-1"></router-link></div>

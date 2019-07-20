@@ -6,6 +6,8 @@ import Splash3 from './views/Splash/Splash3.vue'
 import Login from './views/Login/Login.vue'
 import Verify from './views/Login/Verify.vue'
 import VerifyCode from './views/Login/VerifyCode.vue'
+import Location from './views/Login/Location.vue'
+import Username from './views/Login/Username.vue'
 import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -41,6 +43,16 @@ export default new Router({
           path: '/VerifyCode',
           name: 'VerifyCode',
           component: VerifyCode
+      },
+      {
+          path: '/Location',
+          name: 'Location',
+          component: Location
+      },
+      {
+          path: '/Username',
+          name: 'Username',
+          component: Username
       },
       {
           path: '/Home',

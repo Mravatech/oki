@@ -9,8 +9,8 @@
                 <div class="explore-txt">
                     <h3>Explore your <br><b>African Taste</b>, <br>From the tips of <br>your <b>fingers</b></h3>
                 </div>
-                <div class="foot-note">
-                    <p>o o</p>
+                <div class="foot-note-2">
+                    <p><font-awesome-icon icon="circle" class="fontawesom"/><font-awesome-icon icon="circle" class="fontawesom1"/></p>
                 </div>
             </div>
         </div>
