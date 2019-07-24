@@ -40,7 +40,7 @@ export default new Router({
           component: Verify
       },
       {
-          path: '/VerifyCode',
+          path: '/VerifyCode/:phone',
           name: 'VerifyCode',
           component: VerifyCode
       },

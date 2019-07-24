@@ -16,12 +16,15 @@ Vue.use(VueTypedJs)
 
 import { VueTyper } from 'vue-typer'
 import VueTyperPlugin from 'vue-typer'
+import {ApiService} from "./services/api.service";
 Vue.use(VueTyperPlugin)
 
 library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faCircle, faCircleNotch)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
+ApiService.init('http://localhost:8000/api/v1');
+
 
 new Vue({
   router,
