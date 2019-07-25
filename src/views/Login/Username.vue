@@ -13,7 +13,7 @@
                 <div class="locations">
                     <div class="verify-number">
                         <input class="verify-input" type="text" name="text" placeholder="Username" required>
-                        <router-link to=""><button class="verify-btn">Welcome to Okike</button></router-link>
+                        <router-link to="Landing"><button class="verify-btn">Welcome to Okike</button></router-link>
                     </div>
                     <div class="text-center">
                         <img src="../../assets/images/okike-logo-sm.svg">

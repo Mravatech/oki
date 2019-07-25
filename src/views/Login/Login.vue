@@ -16,8 +16,9 @@
                             :erase-delay='250'
                             erase-style='select-all'
                             :erase-on-complete='false'
-                            caret-animation='blink'
-                    ></vue-typer>
+                            caret-animation='blink'>
+
+                    </vue-typer>
                 <!--<vue-typed-js :strings="['#AbachaInLagos', '#BoliInLagos', '#PalmWineInLagos']" :loop="true" >-->
                     <!--<h4 class="typing abacha-txt"></h4>-->
                 <!--</vue-typed-js>-->

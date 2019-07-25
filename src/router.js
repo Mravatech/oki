@@ -8,6 +8,8 @@ import Verify from './views/Login/Verify.vue'
 import VerifyCode from './views/Login/VerifyCode.vue'
 import Location from './views/Login/Location.vue'
 import Username from './views/Login/Username.vue'
+import Landing from './views/Landing/Landing.vue'
+import ViewFood from './views/Landing/ViewFood.vue'
 import Home from './views/Home.vue'
 
 Vue.use(Router)
@@ -53,6 +55,16 @@ export default new Router({
           path: '/Username',
           name: 'Username',
           component: Username
+      },
+      {
+          path: '/Landing',
+          name: 'Landing',
+          component: Landing
+      },
+      {
+          path: '/ViewFood',
+          name: 'ViewFood',
+          component: ViewFood
       },
       {
           path: '/Home',

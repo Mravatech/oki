@@ -8,6 +8,21 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret, faCircle, faCircleNotch } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import carousel from 'vue-owl-carousel'
+
+import {VueTabs, VTab} from 'vue-nav-tabs'
+//you can also import this in your style tag
+import 'vue-nav-tabs/themes/vue-tabs.css'
+
+// import VueTaber from 'vue-tabs'
+// import '../vue-tabs.css'
+// import tabs from './tabs.js'
+//
+// const vueTaber = new VueTaber({
+//     tabs
+// })
+//
+// Vue.use(VueTaber)
 
 Vue.use(BootstrapVue)
 import VueTypedJs from 'vue-typed-js'
@@ -27,5 +42,10 @@ new Vue({
   router,
     VueTyper,
     'vue-typer': VueTyper,
-  render: h => h(App)
+    carousel,
+    VueTabs,
+    VTab,
+    // taber: vueTaber,
+  render: h => h(App),
+
 }).$mount('#app')
