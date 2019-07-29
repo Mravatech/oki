@@ -7,19 +7,20 @@
                 </div>
 
                 <div class="verify-title">
-                    <h3>What should we call you?</h3>
-                    <p>Give us a name you’d like us to <br>call you.</p>
+                    <h3>Create a PIN</h3>
+                    <p>We also secure your orders while<br> you place them.</p>
                 </div>
                 <div class="locations">
                     <div class="verify-number">
-                        <input class="verify-input" type="text" name="text" placeholder="Username" required>
-                        <router-link to="CreatePin"><button class="verify-btn">Welcome to Okike</button></router-link>
+                        <input class="verify-input" type="text" name="text" placeholder="PIN" required>
+                        <input class="verify-input" type="text" name="text" placeholder="Repeat PIN" required>
+                        <router-link to="Landing"><button class="verify-btn">Create PIN</button></router-link>
                     </div>
                     <div class="text-center">
-                        <img src="../../assets/images/okike-logo-sm.svg">
+                        <img src="../../assets/images/key-lock.svg">
                     </div>
-                    <div class="abacha-everywhere">
-                        <p>#AbachaInLagos</p>
+                    <div class="createpin-text">
+                        <p>Your transactions are secure</p>
                     </div>
                 </div>
             </div>
@@ -29,7 +30,7 @@
 
 <script>
     export default {
-        name: "Username.vue"
+        name: "CreatePin.vue"
     }
 </script>
 

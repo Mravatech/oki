@@ -105,240 +105,244 @@
                         <!--Utazi-->
                     <!--</button>-->
                 <!--</div>-->
-                <vue-tabs class="okike-food-tabs">
-                    <v-tab title="Cuisines">
-                        <div class="promo-today" id="cuisines" >
-                            <h1>Cuisines</h1>
-                            <div class="promo-today-slide">
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
+                <div >
+                    <b-card no-body>
+                        <b-tabs card>
+                            <b-tab no-body title="Cuisines">
+                                <!--<b-card-img bottom src="https://picsum.photos/600/200/?image=21"></b-card-img>-->
+                                <div class="promo-today" id="cuisines" >
+                                    <h1>Cuisines</h1>
+                                    <div class="promo-today-slide">
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                         <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                     <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </v-tab>
+                            </b-tab>
 
-                    <v-tab title="Abacha">
-                        <div class="promo-today" id="abacha" >
-                            <h1>Abacha</h1>
-                            <div class="promo-today-slide">
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
+                            <b-tab no-body title="Abacha">
+                                <div class="promo-today" id="abacha" >
+                                    <h1>Abacha</h1>
+                                    <div class="promo-today-slide">
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </v-tab>
+                            </b-tab>
 
-                    <v-tab title="Achicha">
-                        <div class="promo-today" id="achicha" >
-                            <h1>Achicha</h1>
-                            <div class="promo-today-slide">
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </v-tab>
-                    <v-tab title="Okpa">
-                        <div class="promo-today" id="okpa" >
-                            <h1>Okpa</h1>
-                            <div class="promo-today-slide">
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
+                            <b-tab no-body title="Achicha">
+                                <div class="promo-today" id="achicha" >
+                                    <h1>Achicha</h1>
+                                    <div class="promo-today-slide">
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/boli-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                                <div class="sliding-post">
-                                    <div class="product_img">
-                                        <img src="../../assets/images/abacha-meal.jpg">
-                                    </div>
-                                    <div class="food-details">
-                                        <p class="food-name">Boli & Titus</p>
-                                        <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
-                                        <p class="food-time">3:15pm</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </v-tab>
-                </vue-tabs>
+                            </b-tab>
 
-
+                            <b-tab no-body title="Okpa">
+                                <div class="promo-today" id="okpa" >
+                                    <h1>Okpa</h1>
+                                    <div class="promo-today-slide">
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/boli-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                        <div class="sliding-post">
+                                            <div class="product_img">
+                                                <img src="../../assets/images/abacha-meal.jpg">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </b-tab>
+                        </b-tabs>
+                    </b-card>
+                </div>
 
 
                 <div class="cart-float container">
@@ -353,11 +357,14 @@
 
 <script>
     // import carousel from 'vue-owl-carousel'
-    import {VueTabs, VTab} from 'vue-nav-tabs'
+    // import {VueTabs, VTab} from 'vue-nav-tabs'
     export default {
         name: "Landing.vue",
         isActive: true,
-        components: {  VueTabs, VTab },
+        components: {
+            // VueTabs,
+            // VTab
+        },
 
     }
 
@@ -381,5 +388,39 @@
         height: 100px;
         display: inline-block;
         border: 1px solid black;
+    }
+    .card{
+        background-color: transparent;
+        border: none;
+    }
+    .card-header {
+        padding: 0.75rem 1.25rem;
+        margin-bottom: 0;
+        background-color: transparent !important;
+        border-bottom: none !important;
+    }
+    a{
+        text-decoration: none !important;
+        color: #4A4A4A !important;
+    }
+    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+        background-color: transparent;
+        border-color: none;
+        font-family: Avenir-Heavy;
+        font-size: 20px !important;
+        color: #4A4A4A !important;
+        letter-spacing: 0;
+    }
+    .nav-tabs .nav-link {
+        border: none;
+        border-top-left-radius: 0.25rem;
+        border-top-right-radius: 0.25rem;
+        font-family: Avenir-Heavy;
+        font-size: 20px !important;
+        text-decoration: none !important;
+        color: #BFBFBF !important;
+        letter-spacing: 0;
+        text-align: center;
+        opacity: 0.5 !important;
     }
 </style>

@@ -419,7 +419,7 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    height: 60vh;
+    height: 59vh;
 }
 .enter-location{
     display: flex;
@@ -457,6 +457,17 @@ body{
     text-align: center;
 }
 .abacha-everywhere p{
+    margin-bottom: 0;
+}
+
+.createpin-text{
+    font-family: Avenir-Roman;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+.createpin-text p{
     margin-bottom: 0;
 }
 
@@ -689,6 +700,8 @@ body{
     padding: 5px;
     width: 100%;
     margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 .add-to-bag{
     width: 100%;
@@ -725,6 +738,14 @@ body{
     padding: 7px;
 }
 /*view-okike-food ends*/
+
+.upper-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu-btn{
+    padding-top: 10px;
+}
 
 /*Floating Cart*/
 .cart-float{

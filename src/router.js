@@ -7,10 +7,11 @@ import Login from './views/Login/Login.vue'
 import Verify from './views/Login/Verify.vue'
 import VerifyCode from './views/Login/VerifyCode.vue'
 import Location from './views/Login/Location.vue'
+import CreatePin from './views/Login/CreatePin.vue'
 import Username from './views/Login/Username.vue'
 import Landing from './views/Landing/Landing.vue'
 import ViewFood from './views/Landing/ViewFood.vue'
-import Home from './views/Home.vue'
+import Delicacies from './views/Landing/Delicacies.vue'
 
 Vue.use(Router)
 
@@ -42,7 +43,7 @@ export default new Router({
           component: Verify
       },
       {
-          path: '/VerifyCode',
+          path: '/VerifyCode/:phone',
           name: 'VerifyCode',
           component: VerifyCode
       },
@@ -50,6 +51,11 @@ export default new Router({
           path: '/Location',
           name: 'Location',
           component: Location
+      },
+      {
+          path: '/CreatePin',
+          name: 'CreatePin',
+          component: CreatePin
       },
       {
           path: '/Username',
@@ -67,9 +73,9 @@ export default new Router({
           component: ViewFood
       },
       {
-          path: '/Home',
-          name: 'home',
-          component: Home
+          path: '/Delicacies',
+          name: 'Delicacies',
+          component: Delicacies
       },
     {
       path: '/about',

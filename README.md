@@ -1,4 +1,4 @@
-# hello-world
+# Okike-App
 
 ## Project setup
 ```
