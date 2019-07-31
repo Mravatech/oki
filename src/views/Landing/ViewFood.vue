@@ -97,6 +97,44 @@
     }
 </script>
 
+<style lang="scss">
+
+    .int-pm {
+        &.increase-order-number {
+            font-size: 18px;
+            background-color: #f1f1f1;
+            border-radius: 20px;
+            .int-pm-value {
+                background-color: #f1f1f1;
+                color: #000000;
+                font-size: 18px;
+                padding: 0 20px !important;
+                border: none;
+                height: 45px;
+            }
+            .int-pm-btn {
+                border: none !important;
+                color: white;
+            }
+            .int-pm-increment {
+                background: #7B7B7B !important;
+                border-radius: 50% !important;
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+            .int-pm-decrement {
+                background: #ffffff !important;
+                border: 2px solid #7B7B7B !important;
+                border-radius: 50% !important;
+                width: 45px;
+                height: 45px;
+                font-size: 20px;
+            }
+        }
+    }
+</style>
+
 <style scoped>
 .order-name-price{
     padding: 5px 15px;
@@ -118,44 +156,6 @@
 .increase-order{
     padding: 5px;
 }
-.increase-order-number {
-    font-size: 1.3em;
-}
-.int-pm .int-pm-btn.disabled:hover {
-    background-color: #f1f1f1;
-    border: 1px solid #7B7B7B;
-}
-.int-pm .int-pm-btn.disabled {
-    background-color: #f1f1f1;
-    border-radius: 50%;
-    color: #777;
-    border: 1px solid #7B7B7B;
-    cursor: not-allowed;
-}
-.int-pm .int-pm-btn:hover {
-    background-color: #f1f1f1;
-    border: 1px solid #7B7B7B;
-}
-.int-pm-btn {
-    border: 1px solid #7B7B7B;
-    background-color: #f1f1f1;
-    cursor: pointer;
-    padding: 5px 18px;
-    border-radius: 50%;
-}
-.int-pm-value {
-    background-color: #F1F1F1;
-    color: #000000;
-    font-size: 18px;
-    padding: 0 30px !important;
-    border: 1px solid black !important;
-}
 
-.int-pm-increment {
-    background: #5cb85c !important;
-}
-.int-pm-decrement {
-    background: #d9534f !important;
-}
 
 </style>

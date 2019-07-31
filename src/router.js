@@ -12,6 +12,13 @@ import Username from './views/Login/Username.vue'
 import Landing from './views/Landing/Landing.vue'
 import ViewFood from './views/Landing/ViewFood.vue'
 import Delicacies from './views/Landing/Delicacies.vue'
+import Cart from './views/Landing/Cart.vue'
+import IntegerPlusminus from './components/IntegerPlusminus.vue'
+import Invite from './views/Landing/Invite.vue'
+import AddCard from './views/Landing/AddCard.vue'
+import WalletBalance from './views/Landing/WalletBalance.vue'
+import AddBankCard from './views/Landing/AddBankCard.vue'
+import History from './views/Landing/History.vue'
 
 Vue.use(Router)
 
@@ -76,6 +83,41 @@ export default new Router({
           path: '/Delicacies',
           name: 'Delicacies',
           component: Delicacies
+      },
+      {
+          path: '/Cart',
+          name: 'Cart',
+          component: Cart
+      },
+      {
+          path: '/IntegerPlusminus',
+          name: 'IntegerPlusminus',
+          component: IntegerPlusminus
+      },
+      {
+          path: '/Invite',
+          name: 'Invite',
+          component: Invite
+      },
+      {
+          path: '/AddCard',
+          name: 'AddCard',
+          component: AddCard
+      },
+      {
+          path: '/WalletBalance',
+          name: 'WalletBalance',
+          component: WalletBalance
+      },
+      {
+          path: '/AddBankCard',
+          name: 'AddBankCard',
+          component: AddBankCard
+      },
+      {
+          path: '/History',
+          name: 'History',
+          component: History
       },
     {
       path: '/about',

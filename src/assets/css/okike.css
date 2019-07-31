@@ -107,7 +107,7 @@ body{
     50%  { transform: translatex(-10px); }
     100% { transform: translateX(0); }
 }
-.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
     outline:0px !important;
     -webkit-appearance:none!important;
     border-color: transparent;
@@ -553,7 +553,6 @@ body{
 }
 .sliding-post p{
     margin-bottom: 0;
-
 }
 .food-details{
     padding: 1rem 0;
@@ -738,6 +737,100 @@ body{
     padding: 7px;
 }
 /*view-okike-food ends*/
+
+/*Cart Page starts*/
+.okike-cart-page {
+    width: 100%;
+    height: 100vh;
+    background: #f1f1f1;
+}
+/*Cart Page ends*/
+
+/*Invite Friends Page starts*/
+.invite-friends{
+    width: 100%;
+    height: 100vh;
+    background-color: #E57227;
+}
+.invite-friends-inner{
+    width: 100%;
+    height: 100vh;
+    background: url("../../assets/images/okike-bg-orange.svg") bottom 145px right no-repeat;
+    background-size: contain;
+    background-size: 280px 400px;
+    position: relative;
+    z-index: 1;
+
+}
+.invite-friends-inner2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+/*Invite Friends Page ends*/
+
+/*Wallet Balance Page starts*/
+.wallet-balance-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.wallet-balance-inner{
+    width: 100%;
+    height: 90vh;
+    background: url("../../assets/images/okike-bg-orange.svg") bottom 15px right no-repeat;
+    background-size: contain;
+    background-size: 280px 400px;
+    position: relative;
+    z-index: 1;
+
+}
+.wallet-balance-inner2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+/*Wallet Balance Page ends*/
+
+/*Add Bank Card Page starts*/
+.add-bank-card-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #4A4A4A;
+}
+.add-bank-card-inner{
+    width: 100%;
+    height: 90vh;
+    background: url("../../assets/images/okike-bg-orange.svg") bottom 15px right no-repeat;
+    background-size: contain;
+    background-size: 280px 400px;
+    position: relative;
+    z-index: 1;
+
+}
+.add-bank-card-inner2{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+}
+/*Add Bank Card Page ends*/
+
+/*Food History Page starts*/
+.food-history-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+/*Food History Page ends*/
 
 .upper-menu{
     display: flex;

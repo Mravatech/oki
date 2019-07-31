@@ -10,6 +10,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import carousel from 'vue-owl-carousel'
 
+
 import {VueTabs} from 'vue-nav-tabs'
 import VTab from 'v-tab'
 import 'v-tab/dist/v-tab.css'
@@ -42,6 +43,9 @@ Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false;
 ApiService.init('http://localhost:8000/api/v1');
 
+export {
+    IntegerPlusminus
+}
 
 new Vue({
   router,
