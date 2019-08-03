@@ -12,13 +12,19 @@ import Username from './views/Login/Username.vue'
 import Landing from './views/Landing/Landing.vue'
 import ViewFood from './views/Landing/ViewFood.vue'
 import Delicacies from './views/Landing/Delicacies.vue'
-import Cart from './views/Landing/Cart.vue'
+import Cart from './views/Cart/Cart.vue'
 import IntegerPlusminus from './components/IntegerPlusminus.vue'
-import Invite from './views/Landing/Invite.vue'
-import AddCard from './views/Landing/AddCard.vue'
-import WalletBalance from './views/Landing/WalletBalance.vue'
-import AddBankCard from './views/Landing/AddBankCard.vue'
-import History from './views/Landing/History.vue'
+import Invite from './views/Invite/Invite.vue'
+import MyCard from './views/MyCard/MyCard.vue'
+import WalletBalance from './views/MyCard/WalletBalance.vue'
+import AddBankCard from './views/AddCash/AddBankCard.vue'
+import History from './views/History/History.vue'
+import AddCash from './views/AddCash/AddCash.vue'
+import AddCashQuickteller from './views/AddCash/AddCashQuickteller.vue'
+import BankTransfer from './views/AddCash/BankTransfer.vue'
+import Settings from './views/Settings/Settings.vue'
+import CustomerService from './views/Settings/CustomerService.vue'
+import ChangePin from './views/Settings/ChangePin.vue'
 
 Vue.use(Router)
 
@@ -100,9 +106,9 @@ export default new Router({
           component: Invite
       },
       {
-          path: '/AddCard',
-          name: 'AddCard',
-          component: AddCard
+          path: '/MyCard',
+          name: 'MyCard',
+          component: MyCard
       },
       {
           path: '/WalletBalance',
@@ -118,6 +124,36 @@ export default new Router({
           path: '/History',
           name: 'History',
           component: History
+      },
+      {
+          path: '/AddCash',
+          name: 'AddCash',
+          component: AddCash
+      },
+      {
+          path: '/AddCashQuickteller',
+          name: 'AddCashQuickteller',
+          component: AddCashQuickteller
+      },
+      {
+          path: '/BankTransfer',
+          name: 'BankTransfer',
+          component: BankTransfer
+      },
+      {
+          path: '/Settings',
+          name: 'Settings',
+          component: Settings
+      },
+      {
+          path: '/CustomerService',
+          name: 'CustomerService',
+          component: CustomerService
+      },
+      {
+          path: '/ChangePin',
+          name: 'ChangePin',
+          component: ChangePin
       },
     {
       path: '/about',

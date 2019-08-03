@@ -107,7 +107,7 @@ body{
     50%  { transform: translatex(-10px); }
     100% { transform: translateX(0); }
 }
-.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+.mastercard-amount-input,.mastercard-input,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
     outline:0px !important;
     -webkit-appearance:none!important;
     border-color: transparent;
@@ -184,12 +184,12 @@ body{
 .fontawesom{
     opacity: 1;
     color: #ffffff;
-    margin-right: 2px;
+    margin: 0 2px;
 }
 .fontawesom1{
     opacity: 0.5;
     color: #ffffff;
-    margin-left: 2px;
+    margin: 0 2px;
 }
 .okike-splash3{
     width: 100%;
@@ -839,6 +839,132 @@ body{
 .menu-btn{
     padding-top: 10px;
 }
+
+/*Add Cash by Bank Card starts*/
+.add-cash-card-page{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+}
+.add-cash-card-page-inner{
+    width: 100%;
+    height: 100vh;
+}
+.add-cash-card h3{
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.add-cash-card p{
+    font-family: Avenir-Roman;
+    font-size: 17px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+.mastercard_dropdown{
+    background: #F0F0F0;
+    border: 2px solid #8BBFB6;
+    border-radius: 31px;
+    width: 100%;
+    padding: 10px 15px;
+    display: flex;
+}
+.mastercard-input{
+    border: none;
+    background: none;
+    width: 100%;
+    padding: 5px;
+}
+.mastercard-amount-input{
+    background: #BCE3DC;
+    border: 2px solid #8BBFB6;
+    border-radius: 31px;
+    width: 100%;
+    padding: 15px 20px;
+}
+.addcash-btn{
+    border: none;
+    width: 100%;
+    background: #16A085;
+    border-radius: 35px;
+    font-family: Avenir-Black;
+    font-size: 18px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 1rem 2rem;
+    margin-bottom: 10px;
+}
+.pin_txt{
+    font-family: Avenir-MediumOblique;
+    font-size: 16px;
+    color: #B9B9B9;
+    letter-spacing: 0;
+    text-align: right;
+    padding-right: 20px;
+}
+.pw-key{
+    font-family: Avenir-Roman;
+    font-size: 12px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+    text-align: center;
+}
+.pw-key img{
+    padding: 10px 0;
+}
+.mastercard_flex{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 67%;
+}
+.addcash_txt{
+    font-family: Avenir-Roman;
+    font-size: 14px;
+    color: #A2A2A2;
+    letter-spacing: 0;
+    text-align: center;
+}
+.mastercard_addcash{
+    border: none;
+    width: 100%;
+    background: #16A085;
+    border-radius: 35px;
+    font-family: Avenir-Black;
+    font-size: 20px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.card_icon{
+    padding: 5px;
+}
+.addcash-btn2{
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+}
+.add-cash-card h3{
+    font-family: Avenir-Heavy;
+    font-size: 25px;
+    color: #000000;
+    letter-spacing: 0;
+}
+.add-cash-card p{
+    font-family: Avenir-Roman;
+    font-size: 19px;
+    color: #4A4A4A;
+    letter-spacing: 0;
+}
+/*Add Cash by Bank Card ends*/
 
 /*Floating Cart*/
 .cart-float{

@@ -27,7 +27,7 @@
 
 <script>
     export default {
-        name: "AddCard.vue"
+        name: "MyCard.vue"
     }
 </script>
 

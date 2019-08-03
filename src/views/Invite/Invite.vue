@@ -18,7 +18,7 @@
                 </div>
 
                 <div class="invite-friends-click">
-                    <router-link to="AddCard"><button class="invite-btn">Invite Friends</button></router-link>
+                    <router-link to="MyCard"><button class="invite-btn">Invite Friends</button></router-link>
                 </div>
                 <div></div>
             </div>
