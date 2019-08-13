@@ -37,10 +37,10 @@
 
             },
             async onSubmit() {
-                await onboard.verifyCode(this.phone_number, this.otp).then((res) => {
-                    console.log(res);
+                // await onboard.verifyCode(this.phone_number, this.otp).then((res) => {
+                //     console.log(res);
                     router.push({ path: `/Location`})
-                }).catch((err) => console.log(err));
+                // }).catch((err) => console.log(err));
 
             }
         }
