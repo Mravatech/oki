@@ -8,7 +8,7 @@
                         <p>Quickly grab your food now.</p>
                     </div>
                     <div class="">
-                        <router-link to="ViewFood"><img src="../../assets/images/okike-menu.svg"></router-link>
+                        <router-link to="Menu"><img src="../../assets/images/menu_btn.svg"></router-link>
                     </div>
                 </div>
                 <div class="locate-user">
@@ -107,11 +107,11 @@
                 <!--</div>-->
                 <div >
                     <b-card no-body>
-                        <b-tabs card>
-                            <b-tab no-body title="Cuisines">
+                        <b-tabs card class="okike-tab-card">
+                            <b-tab no-body title="Cuisines" class="abacha-tab">
                                 <!--<b-card-img bottom src="https://picsum.photos/600/200/?image=21"></b-card-img>-->
-                                <div class="promo-today" id="cuisines" >
-                                    <h1>Cuisines</h1>
+                                <div class="food-promo-today" id="cuisines" >
+                                    <div class="black_dot"></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -167,9 +167,9 @@
                                 </div>
                             </b-tab>
 
-                            <b-tab no-body title="Abacha">
-                                <div class="promo-today" id="abacha" >
-                                    <h1>Abacha</h1>
+                            <b-tab no-body title="Abacha" class="abacha-tab">
+                                <div class="food-promo-today" id="abacha" >
+                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -225,9 +225,9 @@
                                 </div>
                             </b-tab>
 
-                            <b-tab no-body title="Achicha">
-                                <div class="promo-today" id="achicha" >
-                                    <h1>Achicha</h1>
+                            <b-tab no-body title="Achicha" class="abacha-tab">
+                                <div class="food-promo-today" id="achicha" >
+                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -283,9 +283,9 @@
                                 </div>
                             </b-tab>
 
-                            <b-tab no-body title="Okpa">
-                                <div class="promo-today" id="okpa" >
-                                    <h1>Okpa</h1>
+                            <b-tab no-body title="Okpa" class="abacha-tab">
+                                <div class="food-promo-today" id="okpa" >
+                                    <div class="black_dot" ></div>
                                     <div class="promo-today-slide">
                                         <div class="sliding-post">
                                             <div class="product_img">
@@ -344,9 +344,12 @@
                     </b-card>
                 </div>
 
+                <div class="menu-float container">
+                    <router-link to="Delicacies"><img src="../../assets/images/okike-menu.svg"></router-link>
+                </div>
 
                 <div class="cart-float container">
-                    <router-link to="ViewFood"><img src="../../assets/images/okike-cart.svg">
+                    <router-link to="Cart"><img src="../../assets/images/okike-cart.svg">
                         <sup class="cart-count">12</sup></router-link>
                 </div>
 
@@ -389,38 +392,9 @@
         display: inline-block;
         border: 1px solid black;
     }
-    .card{
-        background-color: transparent;
-        border: none;
-    }
-    .card-header {
-        padding: 0.75rem 1.25rem;
-        margin-bottom: 0;
-        background-color: transparent !important;
-        border-bottom: none !important;
-    }
-    a{
-        text-decoration: none !important;
-        color: #4A4A4A !important;
-    }
-    .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-        background-color: transparent;
-        border-color: none;
-        font-family: Avenir-Heavy;
-        font-size: 20px !important;
-        color: #4A4A4A !important;
-        letter-spacing: 0;
-    }
-    .nav-tabs .nav-link {
-        border: none;
-        border-top-left-radius: 0.25rem;
-        border-top-right-radius: 0.25rem;
-        font-family: Avenir-Heavy;
-        font-size: 20px !important;
-        text-decoration: none !important;
-        color: #BFBFBF !important;
-        letter-spacing: 0;
-        text-align: center;
-        opacity: 0.5 !important;
+
+    .abacha-tab{
+        text-decoration: none;
+        color: #000000;
     }
 </style>

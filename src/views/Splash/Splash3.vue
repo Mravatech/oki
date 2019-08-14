@@ -20,7 +20,7 @@
                                 :type-delay='70'
                                 :pre-erase-delay='2000'
                                 :erase-delay='250'
-                                erase-style='select-all'
+                                erase-style=''
                                 :erase-on-complete='false'
                                 caret-animation='blink'
                         ></vue-typer>

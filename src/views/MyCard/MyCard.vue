@@ -6,7 +6,7 @@
                     <a @click="$router.go(-1)"><img src="../../assets/images/back-btn2.svg" ></a>
                 </div>
                 <div class="addcard-btn">
-                    <router-link to="WalletBalance"><img src="../../assets/images/add-card.svg" ></router-link>
+                    <router-link to="AddBankCard"><img src="../../assets/images/add-card.svg" ></router-link>
                 </div>
             </div>
             <div class="add-remove-card">
@@ -15,9 +15,15 @@
             </div>
             <div class="">
                 <div class="visa_card">
+                    <div class="atm-card-number">
+                        <p>****1234</p>
+                    </div>
                     <img src="../../assets/images/visa-card.jpg" >
                 </div>
                 <div class="verve_card">
+                    <div class="atm-card-number">
+                        <p>****1234</p>
+                    </div>
                     <img src="../../assets/images/verve-card.jpg" >
                 </div>
             </div>
@@ -63,6 +69,18 @@
     }
     .verve_card img{
         width: 100%;
+    }
+    .atm-card-number{
+        position: absolute;
+        z-index: 1;
+        padding: 27% 0 0 61%;
+    }
+    .atm-card-number p{
+        font-family: Montserrat-SemiBold;
+        font-size: 24px;
+        color: #FFFFFF;
+        letter-spacing: 0.5px;
+        margin-bottom: 0;
     }
 
 </style>

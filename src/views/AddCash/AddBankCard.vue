@@ -37,7 +37,7 @@
 
 
                 <div class="add-card-button">
-                    <router-link to="History"><button class="addcard-btn">Add Card</button></router-link>
+                    <router-link to="WalletBalance"><button class="addcard-btn">Add Card</button></router-link>
                     <div class="key-lock">
                         <img src="../../assets/images/key-white.svg" >
                     </div>

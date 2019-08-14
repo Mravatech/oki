@@ -84,15 +84,17 @@
                 </div>
             </div>
         </div>
-        <div class="checkout-card">
-            <div class="cart-total">
-                <p>Cart Total:</p>
-                <h4>&#8358;7,525.00</h4>
-            </div>
-            <div class="checkout">
-            <router-link to="Invite">
-                <p>Checkout</p>
-            </router-link>
+        <div class="fixed-bottom">
+            <div class="checkout-card">
+                <div class="cart-total">
+                    <p>Cart Total:</p>
+                    <h4>&#8358;7,525.00</h4>
+                </div>
+                <div class="checkout">
+                <router-link to="WalletBalance">
+                    <p>Checkout</p>
+                </router-link>
+                </div>
             </div>
         </div>
     </div>
@@ -161,7 +163,7 @@
     .cart-section{
         display: flex;
         justify-content: space-between;
-        padding: 1.5rem 1rem;
+        padding: 1rem;
     }
     .cart-logo{
         padding-top: 1rem;
@@ -193,7 +195,7 @@
         padding: 1rem;
         overflow-x: overlay;
         scroll-behavior: smooth;
-        height: 65vh;
+        height: 68vh;
     }
     .checkout-card{
         background: #FFFFFF;
@@ -255,11 +257,11 @@
     }
     .product_img img{
         border-radius: 50px;
-        width: 190px;
-        height: 190px;
+        width: 160px;
+        height: 160px;
     }
     .increase-order{
-        padding-top: 30px;
+        padding-top: 20px;
     }
 
 

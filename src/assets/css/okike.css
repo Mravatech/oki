@@ -19,6 +19,16 @@
 }
 
 @font-face {
+    font-family: Montserrat-Light;
+    src: url('../../assets/fonts/Montserrat/Montserrat-Light.ttf');
+}
+
+@font-face {
+    font-family: Montserrat-ExtraBoldItalic;
+    src: url('../../assets/fonts/Montserrat/Montserrat-ExtraBoldItalic.ttf');
+}
+
+@font-face {
     font-family: 'Avenir LT Std 55 Roman';
     font-style: normal;
     font-weight: normal;
@@ -94,6 +104,12 @@
 body{
     padding: 0;
     margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover, a:active, a:focus{
+    text-decoration: none;
 }
 
 .bounce-1 {
@@ -227,7 +243,15 @@ body{
 }
 .typer-txt {
     font-family: Montserrat-ExtraBoldItalic;
-    font-size: 22px;
+    font-size: 21px;
+    color: #FFFFFF;
+    letter-spacing: 0.79px;
+    text-align: center;
+    padding-top: 0.7rem;
+}
+.typer-txt vue-typer{
+    font-family: Montserrat-ExtraBoldItalic;
+    font-size: 21px;
     color: #FFFFFF;
     letter-spacing: 0.79px;
     text-align: center;
@@ -524,7 +548,7 @@ body{
     letter-spacing: 0;
 }
 .promo-today{
-    padding: 1rem 0;
+    padding: 1rem 0 0;
 }
 .promo-today h1{
     font-family: Avenir-Heavy;
@@ -565,7 +589,7 @@ body{
     padding-bottom: 5px;
 }
 .food-price{
-    font-family: LucidaGrande-Bold;
+    font-family: Avenir-Heavy;
     font-size: 14px;
     color: #4A4A4A;
     letter-spacing: 0;
@@ -675,7 +699,7 @@ body{
     font-size: 18px;
     text-align: center;
     border-radius: 27.5px;
-    padding: 0.2rem 1.5rem;
+    padding: 0.2rem 1rem;
     height: 55px;
 }
 .customize-food{
@@ -704,7 +728,6 @@ body{
 }
 .add-to-bag{
     width: 100%;
-    position: fixed;
     z-index: 4;
     padding: 1.5rem;
 }
@@ -718,19 +741,22 @@ body{
 }
 .add-to-bag-bg h3{
     font-family: Avenir-Heavy;
-    font-size: 22px;
+    font-size: 19px;
     color: #FFFFFF;
     letter-spacing: 0;
     margin-bottom: 0;
     padding-top: 10px;
     padding-left: 10px;
 }
+.add-to-bag-bg span{
+    font-size: 12px;
+}
 .add-to-bag-inner{
     display: flex;
 }
 .add-to-bag-inner p{
     font-family: Avenir-Heavy;
-    font-size: 20px;
+    font-size: 19px;
     color: #FFFFFF;
     letter-spacing: 0;
     margin-bottom: 0;
@@ -970,8 +996,19 @@ body{
 .cart-float{
     position: sticky;
     text-align: right;
-    z-index: 2;
+    z-index: 5;
     bottom:1em;
+}
+.menu-float{
+    position: fixed;
+    text-align: left;
+    z-index: 5;
+    bottom:1em;
+}
+.menu-float img{
+    width: 84px;
+    z-index: 10;
+    position: relative;
 }
 .cart-count{
     width: 26px;
@@ -987,3 +1024,78 @@ body{
 }
 /*Floating Cart end*/
 /*Landing Page after onboarding ends*/
+
+.okike-tab-card{
+    background: transparent;
+}
+.card{
+    background-color: transparent !important;
+    border: none !important;
+}
+.card-header {
+    padding: 0.75rem 0.25rem 0.75rem 0.75rem;
+    margin-bottom: 0;
+    background-color: transparent !important;
+    border: none !important;
+}
+.card-header-tabs {
+    margin-right: -0.625rem;
+    margin-bottom: -0.75rem;
+    margin-left: -0.625rem;
+    border-bottom: 0;
+    overflow-y: scroll !important;
+    display: -webkit-box !important;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #000000;
+    background-color: none;
+}
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: transparent !important;
+    border: none !important;
+    font-family: Avenir-Heavy;
+    font-size: 18px !important;
+    color: #000000 !important;
+    letter-spacing: 0;
+}
+.nav-tabs .nav-link {
+    border: none;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+    font-family: Avenir-Heavy;
+    font-size: 18px !important;
+    text-decoration: none !important;
+    color: #BFBFBF !important;
+    letter-spacing: 0;
+    text-align: center;
+    opacity: 0.8 !important;
+}
+.nav-tabs .nav-link:hover {
+    border: none;
+    color: #4A4A4A;
+}
+.black_dot{
+    background: #4A4A4A;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-left: 3.5rem;
+    margin-bottom: 1rem;
+}
+.food-promo-today{
+    padding-bottom: 1rem;
+}
+.modal.show .modal-dialog {
+    -webkit-transform: none;
+    transform: none;
+    align-items: flex-end !important;
+}
+.modal-backdrop{
+    background-color: rgba(0,0,0,0.5) !important;
+}
+.modal-dialog{
+    margin: 0 !important;
+}
+.modal-content{
+    border-radius: 35px 35px 0 0 !important;
+}

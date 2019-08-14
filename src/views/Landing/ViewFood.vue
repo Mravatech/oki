@@ -63,16 +63,18 @@
                 </div>
             </div>
         </div>
-        <div class="add-to-bag">
-            <router-link to="Delicacies">
-                <div class="add-to-bag-bg">
-                <h3>&#8358; 3,300.00</h3>
-                <div class="add-to-bag-inner">
-                    <p>Add to Bag</p>
-                    <img src="../../assets/images/btn-next.svg">
+        <div class="fixed-bottom">
+            <div class="add-to-bag">
+                <router-link to="Cart">
+                    <div class="add-to-bag-bg">
+                    <h3>&#8358; 3,300.<span class="">00</span></h3>
+                    <div class="add-to-bag-inner">
+                        <p>Add to Bag</p>
+                        <img src="../../assets/images/btn-next.svg">
+                    </div>
                 </div>
+                </router-link>
             </div>
-            </router-link>
         </div>
     </div>
 </template>
@@ -141,13 +143,13 @@
 }
 .order-name-price h3{
     font-family: Avenir-Medium;
-    font-size: 21px;
+    font-size: 19px;
     color: #4A4A4A;
     letter-spacing: 0;
     margin-bottom: 0;
 }
 .order-name-price p{
-    font-family: LucidaGrande-Bold;
+    font-family: Avenir-Roman;
     font-size: 14px;
     color: #A7A7A7;
     letter-spacing: 0;

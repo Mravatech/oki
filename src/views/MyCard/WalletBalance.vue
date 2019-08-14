@@ -24,7 +24,7 @@
                         <router-link to="AddBankCard"><img src="../../assets/images/add-money-btn.svg" ></router-link>
                     </div>
                     <div class="buy-food-btn">
-                        <router-link to=""><img src="../../assets/images/buy-food-btn.svg" ></router-link>
+                        <router-link to="Landing"><img src="../../assets/images/buy-food-btn.svg" ></router-link>
                     </div>
                 </div>
             </div>

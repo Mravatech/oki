@@ -4,11 +4,11 @@
             <div class="back-btn">
                 <a @click="$router.go(-1)"><img src="../../assets/images/back-btn2.svg" ></a>
             </div>
-            <router-link to="Settings"><div class="add-cash-card">
+            <div class="add-cash-card">
                 <h3>Add Cash by Bank Card</h3>
                 <p>Add cash through any of the existing
                     <br>Bank Cards or add multiple cards.</p>
-            </div></router-link>
+            </div>
             <div class="bank-transfer-section">
                 <div class="bank-transfer-box">
                     <div class="bank_transfer mb-2 pt-3">

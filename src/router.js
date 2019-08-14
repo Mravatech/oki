@@ -25,6 +25,7 @@ import BankTransfer from './views/AddCash/BankTransfer.vue'
 import Settings from './views/Settings/Settings.vue'
 import CustomerService from './views/Settings/CustomerService.vue'
 import ChangePin from './views/Settings/ChangePin.vue'
+import Menu from './views/Menu/Menu.vue'
 
 Vue.use(Router)
 
@@ -94,6 +95,11 @@ export default new Router({
           path: '/Cart',
           name: 'Cart',
           component: Cart
+      },
+      {
+          path: '/Menu',
+          name: 'Menu',
+          component: Menu
       },
       {
           path: '/IntegerPlusminus',

@@ -7,7 +7,7 @@
                 </div>
                 <div class="addbankcard-btn">
                     <img src="../../assets/images/refresh.svg" >
-                    <router-link to="AddCash"><p>History</p></router-link>
+                    <router-link to=""><p>History</p></router-link>
                 </div>
             </div>
         </div>

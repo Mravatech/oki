@@ -5,8 +5,9 @@
                 <div class="back-btn">
                     <a @click="$router.go(-1)"><img src="../../assets/images/back-btn.svg" ></a>
                 </div>
+                <div class="menu-head-title">MENU</div>
                 <div class="menu-btn">
-                    <img src="../../assets/images/menu-btn.svg" >
+                    <router-link to="Menu"><img src="../../assets/images/menu-btn.svg" ></router-link>
                 </div>
             </div>
             <div class="food-title2">
@@ -23,7 +24,8 @@
                 <b-card no-body>
                     <b-tabs card>
                         <b-tab no-body title="Abacha">
-                            <div class="promo-today"  >
+                            <div class="food-promo-today"  >
+                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -31,7 +33,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -43,7 +45,7 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -55,7 +57,7 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -81,7 +83,8 @@
                             </div>
                         </b-tab>
                         <b-tab no-body title="Boli">
-                            <div class="promo-today"  >
+                            <div class="food-promo-today"  >
+                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -89,7 +92,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -101,7 +104,7 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -139,7 +142,8 @@
                             </div>
                         </b-tab>
                         <b-tab no-body title="Drinks">
-                            <div class="promo-today"  >
+                            <div class="food-promo-today"  >
+                                <div class="black_dot"></div>
                                 <div class="locate-user">
                                     <img src="../../assets/images/search-icon.svg">
                                     <input class="input-location" type="text" name="location" placeholder="Search your food">
@@ -147,7 +151,7 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -159,7 +163,125 @@
                                     </div>
                                     <div class="col-6">
                                         <div class="delicacy-post">
-                                            <router-link to="Cart"><div class="delicacy_img">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
+                                                <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
+                                            </div></router-link>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <div class="delicacy_img">
+                                                <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <div class="delicacy_img">
+                                                <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-tab>
+                        <b-tab no-body title="Achicha">
+                            <div class="food-promo-today"  >
+                                <div class="black_dot"></div>
+                                <div class="locate-user">
+                                    <img src="../../assets/images/search-icon.svg">
+                                    <input class="input-location" type="text" name="location" placeholder="Search your food">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
+                                                <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
+                                            </div></router-link>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
+                                                <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
+                                            </div></router-link>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <div class="delicacy_img">
+                                                <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <div class="delicacy_img">
+                                                <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
+                                            </div>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </b-tab>
+                        <b-tab no-body title="Okpa">
+                            <div class="food-promo-today"  >
+                                <div class="black_dot"></div>
+                                <div class="locate-user">
+                                    <img src="../../assets/images/search-icon.svg">
+                                    <input class="input-location" type="text" name="location" placeholder="Search your food">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
+                                                <img src="../../assets/images/abacha-meal.jpg" alt="Okike Food">
+                                            </div></router-link>
+                                            <div class="food-details">
+                                                <p class="food-name">Boli & Titus</p>
+                                                <p class="food-price">&#8358; 750 <span class="food-price-big">&#8358; 1,350</span></p>
+                                                <p class="food-time">3:15pm</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="delicacy-post">
+                                            <router-link to="ViewFood"><div class="delicacy_img">
                                                 <img src="../../assets/images/boli-meal.jpg" alt="Okike Food">
                                             </div></router-link>
                                             <div class="food-details">
@@ -214,6 +336,14 @@
 </script>
 
 <style scoped>
+    .menu-head-title{
+        font-family: Avenir-Black;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        padding-top: 0.8rem;
+    }
     .food-selection{
         background-color: #F3F3F3;
     }
@@ -234,6 +364,12 @@
     }
     .food-title2 h3{
         font-family: Avenir-Roman;
+        font-size: 26px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+    }
+    .food-title2 h3 b{
+        font-family: Avenir-Black;
         font-size: 26px;
         color: #FFFFFF;
         letter-spacing: 0;

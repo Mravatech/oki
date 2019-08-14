@@ -5,9 +5,8 @@
                 <a @click="$router.go(-1)"><img src="../../assets/images/back-btn2.svg" ></a>
             </div>
             <div class="add-cash-card">
-                <h3>Add Cash by Bank Card</h3>
-                <p>Add cash through any of the existing
-                    <br>Bank Cards or add multiple cards.</p>
+                <h3>Add Cash by Quickteller</h3>
+                <p>Kindly visit <b>quickteller.com/okikefoods</b> on your browser and use 090100000 as your Okike Phone Number</p>
             </div>
             <div class="">
                 <div class="mastercard-input-box">
