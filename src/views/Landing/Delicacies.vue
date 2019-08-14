@@ -7,7 +7,7 @@
                 </div>
                 <div class="menu-head-title">MENU</div>
                 <div class="menu-btn">
-                    <router-link to="Menu"><img src="../../assets/images/menu-btn.svg" ></router-link>
+                    <router-link to="Menu"><img src="../../assets/images/menu-btn.svg" class=""></router-link>
                 </div>
             </div>
             <div class="food-title2">
