@@ -28,16 +28,16 @@
         name: "Verify",
         data: function () {
             return {
-                phone_number: '',
+                phone_number: '3553',
             };
         },
 
         methods: {
             async onSubmit() {
-                await onboard.phoneNumber(this.phone_number).then((res) => {
-                    console.log(res);
+                // await onboard.phoneNumber(this.phone_number).then((res) => {
+                //     console.log(res);
                     router.push({ path: `/VerifyCode/${this.phone_number}`})
-                }).catch((err) => console.log(err));
+                // }).catch((err) => console.log(err));
 
             }
         }
