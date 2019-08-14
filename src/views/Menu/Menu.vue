@@ -1,5 +1,5 @@
 <template>
-    <div class="menu-page">
+    <div class="menu-page animated">
         <div class="nav-left">
             <div class="menu-btn">
                 <a @click="$router.go(-1)"><img src="../../assets/images/menu_btn.svg" ></a>
@@ -201,6 +201,10 @@
         width: 100%;
         height: 100vh;
         display: flex;
+        /*-webkit-animation-timing-function: ease-in-out;*/
+        /*animation-timing-function: ease-in-out;*/
+        /*-webkit-animation-name: fadeInRight;*/
+        /*animation-name: fadeInRight;*/
     }
     .nav-left{
         background: #ffffff;

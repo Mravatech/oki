@@ -1,5 +1,5 @@
 <template>
-    <div class="view-okike-food">
+    <div class="view-okike-food animated">
         <div class="food-overlay">
             <div class="upper-menu">
                 <div class="back-btn">

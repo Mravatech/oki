@@ -1,5 +1,5 @@
 <template>
-    <div class="view-okike-food">
+    <div class="view-okike-food ">
         <div class="food-overlay">
             <div class="back-btn">
                 <a @click="$router.go(-1)"><img src="../../assets/images/back-btn.svg" ></a>

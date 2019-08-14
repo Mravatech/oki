@@ -1,6 +1,6 @@
 <template>
-    <div class="okike-landing">
-        <div class="okike-landing-inner">
+    <div class="okike-landing animated">
+        <div class="okike-landing-inner ">
             <div class="container">
                 <div class="up-intro">
                     <div class="hi-username">
@@ -17,7 +17,7 @@
                 </div>
             </div>
 
-                <div class="promo-today">
+                <div class="promo-today ">
                     <h1>Promo Today</h1>
                     <!--<carousel :autoplay="true" :nav="false">-->
                     <div class="promo-today-slide">
@@ -343,16 +343,18 @@
                         </b-tabs>
                     </b-card>
                 </div>
+                <div class="fixed-bottom">
+                    <div class="floating-menu-footer container">
+                        <div class="menu-float ">
+                            <router-link to="Delicacies"><img src="../../assets/images/okike-menu.svg"></router-link>
+                        </div>
 
-                <div class="menu-float container">
-                    <router-link to="Delicacies"><img src="../../assets/images/okike-menu.svg"></router-link>
+                        <div class="cart-float ">
+                            <router-link to="Cart"><img src="../../assets/images/okike-cart.svg">
+                                <sup class="cart-count">12</sup></router-link>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="cart-float container">
-                    <router-link to="Cart"><img src="../../assets/images/okike-cart.svg">
-                        <sup class="cart-count">12</sup></router-link>
-                </div>
-
             </div>
         <!--</div>-->
     </div>
@@ -396,5 +398,11 @@
     .abacha-tab{
         text-decoration: none;
         color: #000000;
+    }
+    .floating-menu-footer{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 1rem;
+        width: 100%;
     }
 </style>
