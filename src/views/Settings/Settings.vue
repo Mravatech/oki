@@ -6,8 +6,9 @@
                     <a @click="$router.go(-1)"><img src="../../assets/images/back-btn2.svg" ></a>
                 </div>
                 <div class="settings-btn">
-                    <img src="../../assets/images/refresh.svg" >
-                    <p>Settings</p>
+                    <!--<img src="../../assets/images/refresh.svg" >-->
+
+                    <p><font-awesome-icon icon="cog" class=""/> Settings</p>
                 </div>
             </div>
         </div>

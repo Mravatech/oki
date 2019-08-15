@@ -5,7 +5,7 @@ import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 // import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faUserSecret, faCircle, faCircleNotch } from '@fortawesome/free-solid-svg-icons'
+import { faUserSecret, faCircle, faCircleNotch, faCog } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faFacebookF, faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import carousel from 'vue-owl-carousel'
@@ -37,7 +37,7 @@ Vue.component('IntegerPlusminus', IntegerPlusminus)
 import {ApiService} from "./services/api.service";
 Vue.use(VueTyperPlugin)
 
-library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faCircle, faCircleNotch)
+library.add(faUserSecret, faFacebookF, faTwitter, faInstagram, faCircle, faCircleNotch, faCog)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.config.productionTip = false;

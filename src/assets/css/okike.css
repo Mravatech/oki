@@ -123,7 +123,7 @@ a:hover, a:active, a:focus{
     50%  { transform: translatex(-10px); }
     100% { transform: translateX(0); }
 }
-.mastercard-amount-input,.mastercard-input,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
+.change-pin-input, .mastercard-amount-input,.mastercard-input,.card-pin-input,.expiry-input,.addcard-input,.input-location,.verify-input-location,.verify-input,.verify-input2,.form-input,select,textarea,button,.form-control,.input-field:focus,.input-field:active {
     outline:0px !important;
     -webkit-appearance:none!important;
     border-color: transparent;
@@ -668,21 +668,21 @@ a:hover, a:active, a:focus{
 .food-selection{
     background: #FFFFFF;
     border-radius: 40px 40px 0 0;
-    height: 65vh;
+    height: 70vh;
     width: 100%;
     position: absolute;
     z-index: 2;
     padding: 1rem;
-    margin-top: -4rem;
+    margin-top: -6rem;
 }
 .food-name-price{
     display: flex;
     justify-content: space-between;
-    padding: 0 1rem;
+    padding: 0;
 }
-.food-name-price{
+.food-name-price h3{
     font-family: Avenir-Heavy;
-    font-size: 24px;
+    font-size: 22px;
     color: #000000;
     letter-spacing: 0;
     text-align: center;
@@ -694,6 +694,7 @@ a:hover, a:active, a:focus{
     z-index: 2;
     padding: 0 1rem;
     border-bottom: 1px solid #E4E4E4;
+    margin-top: -2rem;
 }
 .buy-combo p{
     font-family: Avenir-Roman;
@@ -709,6 +710,7 @@ a:hover, a:active, a:focus{
     border-radius: 27.5px;
     padding: 0.2rem 1rem;
     height: 55px;
+    font-weight: 900;
 }
 .customize-food{
     position: relative;
@@ -716,7 +718,7 @@ a:hover, a:active, a:focus{
     padding: 1rem;
     overflow-x: overlay;
     scroll-behavior: smooth;
-    height: 200px;
+    height: 37%;
 }
 .customize-food h4{
     text-align: center;

@@ -24,7 +24,7 @@
                         <router-link to="AddBankCard"><img src="../../assets/images/add-money-btn.svg" ></router-link>
                     </div>
                     <div class="buy-food-btn">
-                        <router-link to="Landing"><img src="../../assets/images/buy-food-btn.svg" ></router-link>
+                        <router-link to="Delivery"><img src="../../assets/images/buy-food-btn.svg" ></router-link>
                     </div>
                 </div>
             </div>
@@ -57,19 +57,19 @@
         letter-spacing: 0;
     }
     .balance-naira{
-        font-family: LucidaGrande-Bold;
+        font-family: Avenir-Heavy;
         font-size: 30px;
         color: #4A4A4A;
         letter-spacing: 0;
     }
     .coin-balance h1{
-        font-family: LucidaGrande-Bold;
+        font-family: Avenir-Heavy;
         font-size: 46px;
         color: #4A4A4A;
         letter-spacing: 0;
     }
     .balance-kobo{
-        font-family: LucidaGrande-Bold;
+        font-family: Avenir-Heavy;
         font-size: 30px;
         color: #4A4A4A;
         letter-spacing: 0;

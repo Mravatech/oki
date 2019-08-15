@@ -70,10 +70,10 @@
         background: #FFFFFF;
         border-radius: 37.5px;
         font-family: Avenir-Heavy;
-        font-size: 27px;
+        font-size: 22px;
         color: #E57227;
         letter-spacing: 0;
-        padding: 5px 20px;
+        padding: 13px 24px;
     }
 
 </style>
