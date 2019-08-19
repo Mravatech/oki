@@ -19,3 +19,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw*
+
+# Cordova (added by vue-cli-plugin-cordova-simple)
+platforms
+plugins
+www
+
